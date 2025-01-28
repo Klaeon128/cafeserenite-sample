@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Cafe Serenite</title>
+ <link rel="icon" href="img/top-main/favicon.ico">
+ <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+ <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__bar">
+      <div class="header__logo">
+        <a class="logo-link" href="index.html">
+        <img class="header__logo-img" src="img/top-main/logo-green.png" alt="Cafe Serenite">
+        </a>
+      </div>
+      <div class="mask">
+      <div class="toggle-btn">
+        <span></span>
+        <span></span>         
+      </div>
+    </div>
+      <div class="scroll">
+        <span>Scroll</span>
+      </div>
+    </div>
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav-item"><a href="index.html" class="header__nav-link">HOME</a></li>
+        <li class="header__nav-item"><a href="menu.html" class="header__nav-link">MENU</a></li>
+        <li class="header__nav-item"><a href="#" class="header__nav-link">ABOUT US</a></li>
+        <li class="header__nav-item"><a href="#" class="header__nav-link">SHOPPING</a></li>
+        <li class="header__nav-item"><a href="#" class="header__nav-link">ACCESS</a></li>
+      </ul>
+      <div class="header__nav-sns">
+        <a href="#" class="btn btn--contact">CONTACT</a>
+        <ul class="header__contact">
+          <li class="header__contact-item"><i class="fa-solid fa-phone fa-fw" style="color: #ffffff;"></i><a class="header__contact-link" href="tel:03-1234-5678">03-1234-5678</a></li>
+          <li class="header__contact-item"><i class="fa-solid fa-envelope fa-fw" style="color: #ffffff;"></i><a class="header__contact-link" href="mailto:info@cafeselenite.com">info@cafeselenite.com</a></li>
+        </ul>
+        <div class="sns-icons">
+          <a href="https://line.me/" target="_blank" rel="noopener noreferrer" aria-label="LINE">
+            <i class="fa-brands fa-line fa-2x fa-fw"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <i class="fa-brands fa-instagram fa-2x fa-fw"></i>
+          </a>
+        </div>
+    </div>
+    </nav>
+  </header>
+ <main>
+  <div class="section-mv">
+  <img class="section-mv-img" src="img/top-main/mv-food.png" alt="コーヒーとケーキの写真">
+  <div class="section-mv-text mv__fade-in">
+    <h1 class="section-mv__ttl">MENU</h1>
+    <p class="section-mv-desc">Café Serenitéでは、こだわりのコーヒーと季節ごとの特別なデザート、ヘルシーで美味しいフードを取り揃えています。<br>
+      どれも心を込めて作り上げた一品です。お好きなメニューで、贅沢なひとときをお楽しみください。</p>  
+  </div>
+  </div>
+  <section class="menu-wrapper" id="seasonal-menu">
+    <div class="blur">
+    <h2 class="section__ttl--en vertical vertical--sp">SEASONAL MENU</h2>
+    <p class="section__ttl--ja">季節限定メニュー</p>
+    </div>
+
+    <ul class="menu__list scroll_up">
+      <li class="menu__item">
+        <img class="menu__img" src="img/seasonal/mousse.png" alt="ホワイトチョコレートとラズベリーのムース">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">ホワイトチョコレートとラズベリーのムース</h3>
+        <p class="menu__item-price">¥750</p>
+        <p class="menu__item-description">
+          濃厚なホワイトチョコレートムースに、甘酸っぱいラズベリーソースをアクセントに加えた冬らしいデザート。冷たいムースと温かいラズベリーソースのコンビネーションが絶妙です。
+        </p>
+      </div>
+      </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/seasonal/appletart.png" alt="キャラメルアップルタルト">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">キャラメルアップルタルト</h3>
+        <p class="menu__item-price">¥700</p>
+        <p class="menu__item-description">
+          じっくりキャラメルで煮込んだリンゴをタルト生地に乗せ、オーブンで焼き上げた一品。キャラメルの甘さとリンゴの爽やかな酸味が引き立ちます。上にはシナモンを効かせて冬の香りを演出。
+        </p>
+        </div>
+      </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/seasonal/trifle.png" alt="チョコレートとオレンジのトライフル">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">チョコレートとオレンジのトライフル</h3>
+        <p class="menu__item-price">¥700</p>
+        <p class="menu__item-description">
+          ふんわりとしたチョコレートスポンジと、オレンジの爽やかな風味が特徴のトライフル。冬の寒さを忘れる、暖かみのある甘さが感じられるデザートです。
+        </p>
+        </div>
+      </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/seasonal/cheesecake.png" alt="スフレチーズケーキ">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">柚子香るスフレチーズケーキ</h3>
+        <p class="menu__item-price">¥800</p>
+        <p class="menu__item-description">
+          ほのかな柚子の香りを感じるふんわり軽いスフレチーズケーキ。ホットティーとの相性抜群。</p>
+        </div>
+        </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/seasonal/spicycoffee.png" alt="ホット・スパイシーコーヒー">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">ホット・スパイシーコーヒー</h3>
+        <p class="menu__item-price">¥600</p>
+        <p class="menu__item-description">
+          シナモン、クローブ、ナツメグなどのスパイスをブレンドした温かいコーヒー。寒い冬にぴったりな、心も温まる一杯。
+        </p>
+        </div>
+      </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/seasonal/banilalatte.png" alt="バニラ・キャラメルラテ">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">バニラ・キャラメルラテ</h3>
+        <p class="menu__item-price">¥700</p>
+        <p class="menu__item-description">
+          まろやかなバニラシロップとキャラメルシロップを加えた、冬の特別な甘いコーヒー。濃厚なラテにほんのり甘さが広がります。
+        </p>
+      </div>
+      </li>
+    </ul>
+  </section>
+  <section class="menu-wrapper" id="drink">
+    <div class="blur">
+    <h2 class="section__ttl--en vertical">DRINK MENU</h2>
+    <p class="section__ttl--ja">ドリンクメニュー</p>
+    </div>
+
+    <ul class="menu__list scroll_up">
+      <li class="menu__item">
+        <img class="menu__img" src="img/drink/icecoffee.png" alt="ブレンドコーヒー">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">クラシックブレンドコーヒー（HOT / ICE）</h3>
+        <p class="menu__item-price">¥450</p>
+        <p class="menu__item-description">
+          丁寧にドリップされた芳醇な香りのコーヒー。シンプルで深い味わいをお楽しみください。
+        </p>
+      </div>
+      </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/drink/cafelatte.png" alt="カフェラテ">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">カフェラテ（HOT / ICE）</h3>
+        <p class="menu__item-price">¥500</p>
+        <p class="menu__item-description">
+          クリーミーなミルクとエスプレッソの絶妙なバランスが魅力。ラテアートはHOTでのみご提供。
+        </p>
+        </div>
+      </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/drink/cupccino.png" alt="カプチーノ">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">カプチーノ（HOT）</h3>
+        <p class="menu__item-price">¥500</p>
+        <p class="menu__item-description">
+          濃厚なエスプレッソにふわふわのフォームミルクをのせた、クラシックな一杯。
+        </p>
+        </div>
+      </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/drink/americano.png" alt="アメリカーノ">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">アメリカーノ（HOT / ICE）</h3>
+        <p class="menu__item-price">¥400</p>
+        <p class="menu__item-description">
+          コーヒー豆本来の香りを楽しめる、すっきりとした味わい。ホットとアイスから選べます。</p>
+        </div>
+        </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/drink/caramelmacciato.png" alt="キャラメルマキアート">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">キャラメルマキアート（HOT / ICE）</h3>
+        <p class="menu__item-price">¥600</p>
+        <p class="menu__item-description">
+          エスプレッソとスチームミルクにキャラメルソースを合わせた甘さと香ばしさが魅力の一杯。デザート感覚で楽しめます。        
+        </p>
+        </div>
+      </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/drink/vanila.png" alt="バニラモカ">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">バニラモカ（HOT / ICE）</h3>
+        <p class="menu__item-price">¥550</p>
+        <p class="menu__item-description">
+          チョコレートとバニラの香りが広がるデザート感覚のコーヒー。ホイップクリームは追加オプション。
+        </p>
+      </div>
+      </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/drink/hotchocolate.png" alt="ホットチョコレート">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">ホットチョコレート（HOT）</h3>
+        <p class="menu__item-price">¥550</p>
+        <p class="menu__item-description">
+          リッチなカカオの風味を楽しめる冬にぴったりのドリンク。ミニマシュマロを添えて。</p>
+        </div>
+        </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/drink/matchalate.png" alt="抹茶ラテ">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">抹茶ラテ（HOT / ICE）</h3>
+        <p class="menu__item-price">¥550</p>
+        <p class="menu__item-description">
+          上質な抹茶を使用した、香り高いグリーンティーラテ。HOTはまろやかに、ICEは爽やかに。        
+        </p>
+        </div>
+      </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/drink/tea.png" alt="ハーブティー">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">ハーブティーセレクション（HOT）</h3>
+        <p class="menu__item-price">¥600</p>
+        <p class="menu__item-description">
+          リラックス効果のあるカモミールやミントティーなど、数種類からお選びいただけます。
+        </p>
+      </div>
+      </li>
+    </ul>
+    <p class="more">… and more</p>
+  </section>
+  <section class="menu-wrapper" id="food">
+    <div class="blur">
+    <h2 class="section__ttl--en vertical">FOOD MENU</h2>
+    <p class="section__ttl--ja">フードメニュー</p>
+    </div>
+    
+    <ul class="menu__list scroll_up">
+      <li class="menu__item">
+        <img class="menu__img" src="img/food/croissansand.png" alt="自家製クロワッサンサンド">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">自家製クロワッサンサンド（スモークサーモン＆クリームチーズ）</h3>
+        <p class="menu__item-price">¥650</p>
+        <p class="menu__item-description">
+          バターの風味豊かな自家製クロワッサンに、スモークサーモンとクリームチーズを挟み、ディルで香り付け。
+        </p>
+      </div>
+      </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/food/avocadotorst.png" alt="アボカド＆エッグオープンサンド">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">アボカド＆エッグオープンサンド</h3>
+        <p class="menu__item-price">¥700</p>
+        <p class="menu__item-description">
+          トーストしたカンパーニュに、クリーミーなアボカドと半熟卵をのせ、ブラックペッパーでアクセント。
+        </p>
+        </div>
+      </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/food/panini.png" alt="トマトとモッツァレラのバジルパニーニ">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">トマトとモッツァレラのバジルパニーニ</h3>
+        <p class="menu__item-price">¥700</p>
+        <p class="menu__item-description">
+          カリッと焼き上げたパニーニパンに、ジューシーなトマトとモッツァレラチーズを挟み、バジルソースで仕上げ。
+        </p>
+        </div>
+      </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/food/soupset.png" alt="レンズ豆とクミンのスープセット">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">レンズ豆とクミンのスープセット</h3>
+        <p class="menu__item-price">¥800</p>
+        <p class="menu__item-description">
+          スパイスを効かせたレンズ豆のスープに、こんがり焼いたカンパーニュのトーストを添えた、軽食にぴったりのセット。</p>
+        </div>
+        </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/food/quiche.png" alt="季節のキッシュ">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">季節のキッシュ（ほうれん草＆ベーコン）</h3>
+        <p class="menu__item-price">¥800</p>
+        <p class="menu__item-description">
+          サクサクのパイ生地に、季節のほうれん草とベーコンをたっぷり詰め込んだ自家製キッシュ。
+        </p>
+        </div>
+      </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/food/chickensalad.png" alt="バニラ・キャラメルラテ">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">地元野菜とローストチキンのサラダボウル</h3>
+        <p class="menu__item-price">¥700</p>
+        <p class="menu__item-description">
+          新鮮な地元野菜とじっくり焼き上げたローストチキンに、特製ハニーマスタードドレッシングを添えて。
+        </p>
+      </div>
+      </li>
+    </ul>
+    <p class="more">… and more</p>
+  </section>
+  <section class="menu-wrapper" id="sweets">
+    <div class="blur">
+    <h2 class="section__ttl--en vertical">SWEETS MENU</h2>
+    <p class="section__ttl--ja">スイーツメニュー</p>
+    </div>
+    
+    <ul class="menu__list scroll_up">
+      <li class="menu__item">
+        <img class="menu__img" src="img/sweets/gateau chocolat.png" alt="クラシックガトーショコラ">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">クラシックガトーショコラ</h3>
+        <p class="menu__item-price">¥700</p>
+        <p class="menu__item-description">
+          濃厚なカカオの風味が広がるしっとりとした焼き立てのガトーショコラ。軽い生クリームを添えて。
+        </p>
+      </div>
+      </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/sweets/cheesecake.png" alt="ベイクドチーズケーキ">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">ベイクドチーズケーキ</h3>
+        <p class="menu__item-price">¥700</p>
+        <p class="menu__item-description">
+          北海道産クリームチーズを使用した、滑らかで濃厚な味わい。ほんのり酸味がクセになる一品。
+        </p>
+        </div>
+      </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/sweets/tarte.png" alt="季節のフルーツタルト">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">季節のフルーツタルト</h3>
+        <p class="menu__item-price">¥800</p>
+        <p class="menu__item-description">
+          季節ごとに変わるフレッシュフルーツをふんだんに使ったタルト。サクサクのタルト生地が自慢。
+        </p>
+        </div>
+      </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/sweets/affogato.png" alt="アフォガート">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">アフォガート</h3>
+        <p class="menu__item-price">¥750</p>
+        <p class="menu__item-description">
+          バニラアイスに濃厚なエスプレッソをかけていただくシンプルで贅沢なデザート。</p>
+        </div>
+        </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/sweets/macaron.png" alt="マカロンアソート">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">マカロンアソート（3種）</h3>
+        <p class="menu__item-price">¥600</p>
+        <p class="menu__item-description">
+          彩り豊かなマカロンを3種類のフレーバーでご用意。お茶やコーヒーとの相性抜群。
+        </p>
+        </div>
+      </li>
+      <li class="menu__item">
+        <img class="menu__img" src="img/sweets/pannacotta.png" alt="キャラメルパンナコッタ">
+        <div class="menu__text-box">
+        <h3 class="menu__item-title">キャラメルパンナコッタ</h3>
+        <p class="menu__item-price">¥650</p>
+        <p class="menu__item-description">
+          滑らかなパンナコッタに自家製キャラメルソースをたっぷりとかけた、一口ごとに幸せを感じる一品。
+        </p>
+      </div>
+      </li>
+    </ul>
+    <p class="more">… and more</p>
+  </section>
+  <nav class="breadcrumb">
+    <ol class="breadcrumb__list">
+      <li class="breadcrumb__list-item"><a class="breadcrumb__list-link" href="index.html">TOP</a></li>
+      <li class="breadcrumb__list-item">MENU</li>
+    </ol>
+  </nav>
+<footer class="footer">
+  <div class="footer__left">
+    <a class="logo-link" href="index.html">
+    <img class="footer__cafe-logo" src="img/top-main/logo-green.png" alt="Cafe Serenite">
+    </a>
+    <p class="footer__cafe-address">東京都渋谷区〇〇町1-2-3<br>アクセス: 渋谷駅から徒歩5分</p>
+  </div>
+
+  <div class="footer__right">
+    <div class="sns-icons sns-icons--footer">
+    <p class="section__ttl--en section__ttl--footer beside">SNS</p>
+    <a class="sns-icons-link" href="https://line.me/" target="_blank" aria-label="LINE">
+    <i class="fa-brands fa-brands--green fa-line fa-2x fa-fw"></i></a>
+    <a class="sns-icons-link" href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+    <i class="fa-brands fa-brands--green fa-instagram fa-2x fa-fw"></i>
+    </a>
+    </div>
+    <a class="btn" href="#">CONTACT</a>
+    <p class="copyright">&copy; 2024 Café Serenité</p>
+  </div>
+</footer>
+ </main>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

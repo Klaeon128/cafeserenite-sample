@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta charset="UTF-8">
+ <meta name="Serenite" content="width=device-width, initial-scale=1.0">
+ <title>Cafe Serenite</title>
+ <link rel="icon" href="img/top-main/favicon.ico">
+ <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+ <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__bar">
+      <div class="header__logo">
+        <a class="logo-link" href="index.html">
+        <img class="header__logo-img" src="img/top-main/logo-green.png" alt="Cafe Serenite">
+        </a>
+      </div>
+      <div class="mask">
+      <div class="toggle-btn">
+        <span></span>
+        <span></span>         
+      </div>
+    </div>
+      <div class="scroll">
+        <span>Scroll</span>
+      </div>
+    </div>
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav-item"><a href="index.html" class="header__nav-link">HOME</a></li>
+        <li class="header__nav-item"><a href="menu.html" class="header__nav-link">MENU</a></li>
+        <li class="header__nav-item"><a href="#" class="header__nav-link">ABOUT US</a></li>
+        <li class="header__nav-item"><a href="#" class="header__nav-link">SHOPPING</a></li>
+        <li class="header__nav-item"><a href="#" class="header__nav-link">ACCESS</a></li>
+      </ul>
+      <div class="header__nav-sns">
+        <a href="#" class="btn btn--contact">CONTACT</a>
+        <ul class="header__contact">
+          <li class="header__contact-item"><i class="fa-solid fa-phone fa-fw" style="color: #ffffff;"></i><a class="header__contact-link" href="tel:03-1234-5678">03-1234-5678</a></li>
+          <li class="header__contact-item"><i class="fa-solid fa-envelope fa-fw" style="color: #ffffff;"></i><a class="header__contact-link" href="mailto:info@cafeselenite.com">info@cafeselenite.com</a></li>
+        </ul>
+        <div class="sns-icons">
+          <a href="https://line.me/" target="_blank" rel="noopener noreferrer" aria-label="LINE">
+            <i class="fa-brands fa-line fa-2x fa-fw"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <i class="fa-brands fa-instagram fa-2x fa-fw"></i>
+          </a>
+        </div>
+    </div>
+    </nav>
+  </header>
+ <main>
+  <div class="mv">
+  <div class="bg-slider">
+  <h1 class="mv__fade-in">
+  <img class="mv__logo" src="img/top-main/logo-white.png" alt="カフェのロゴ">
+  </h1>
+  </div>
+  </div>
+  <section class="menu scroll_up">
+    <div class="section__ttl">
+        <h2 class="section__ttl--en beside blur">MENU</h2>
+        <span class="section__ttl--ja blur u-hidden--tablet">メニュー</span>
+        <a href="menu.html" class="btn btn--menu">MENU LIST</a>
+    </div>
+    <p class="menu__desc">
+      当店のメニューは、こだわり抜いた厳選素材と丁寧な手仕事でお届けします。バリスタが一杯ずつ丁寧に淹れるハンドドリップコーヒーや、季節限定のデザートは、五感で楽しむ特別なひとときを演出。フードメニューには、自家製のクロワッサンや地元の新鮮野菜を使用したサンドイッチなど、心も体も満たされるラインナップをご用意しました。Café Serenitéでしか味わえない、贅沢な時間をお楽しみください。
+    </p>
+    <ul class="menu__slide-list">
+      <li class="menu__item slide-item">
+        <img class="menu__img" src="img/drink/icecoffee.png" alt="クラシックブレンドコーヒー">
+        <div class="menu__text-box menu__text-box--top">
+        <h3 class="menu__item-title">クラシックブレンドコーヒー（HOT / ICE）</h3>
+        <p class="menu__item-price">¥450</p>
+      </div>
+      </li>
+      <li class="menu__item slide-item">
+        <img class="menu__img" src="img/drink/cafelatte.png" alt="カフェラテ">
+        <div class="menu__text-box menu__text-box--top">
+        <h3 class="menu__item-title">カフェラテ（HOT / ICE）</h3>
+        <p class="menu__item-price">¥500</p>
+      </div>
+      </li>
+      <li class="menu__item slide-item">
+        <img class="menu__img" src="img/food/croissansand.png" alt="自家製クロワッサンサンド">
+        <div class="menu__text-box menu__text-box--top">
+        <h3 class="menu__item-title">自家製クロワッサンサンド（スモークサーモン＆クリームチーズ）</h3>
+        <p class="menu__item-price">¥650</p>
+      </div>
+      </li>
+      <li class="menu__item slide-item">
+        <img class="menu__img" src="img/food/avocadotorst.png" alt="アボカド＆エッグオープンサンド">
+        <div class="menu__text-box menu__text-box--top">
+        <h3 class="menu__item-title">アボカド＆エッグオープンサンド</h3>
+        <p class="menu__item-price">¥700</p>
+      </div>
+      </li>
+      <li class="menu__item slide-item">
+        <img class="menu__img" src="img/sweets/gateau chocolat.png" alt="クラシックガトーショコラ">
+        <div class="menu__text-box menu__text-box--top">
+        <h3 class="menu__item-title">クラシックガトーショコラ</h3>
+        <p class="menu__item-price">¥700</p>
+      </div>
+      </li>
+      <li class="menu__item slide-item">
+        <img class="menu__img" src="img/sweets/pannacotta.png" alt="キャラメルパンナコッタ">
+        <div class="menu__text-box menu__text-box--top">
+        <h3 class="menu__item-title">キャラメルパンナコッタ</h3>
+        <p class="menu__item-price">¥650</p>
+      </div>
+      </li>
+    </ul>
+    <div class="arrow_box"></div>
+  </section>
+
+  <section class="about section__inner scroll_up">
+    <div class="about__text blur">
+      <div class="section__ttl">
+      <h2 class="section__ttl--en beside">ABOUT US</h2>
+      <span class="section__ttl--ja u-hidden--tablet">コンセプト</span>
+    </div>
+    <h3 class="text__ttl">忙しい毎日にちょっとした安らぎをプラス</h3>
+    <p class="about__desc">私たちのカフェでは、厳選された豆で丁寧に淹れるコーヒーと、旬の素材を使ったスイーツをご用意しています。自然光が差し込む温かな空間で、ゆったりとした時間をお過ごしください。お一人での読書やお仕事、友人や家族とのおしゃべりなど、さまざまなシーンに寄り添うことを目指しています。<br>
+      五感で楽しむリラックスタイムをお届けし、訪れるたびに心が穏やかになるようなひとときを提供いたします。</p>
+    <a class="btn" href="#">詳しく見る</a>
+    </div>
+    <div class="about__img">
+      <img src="img/top-main/handdrip.jpg" alt="コーヒーを淹れている様子">
+    </div>
+  </section>
+
+  <section class="shopping section__inner scroll_up">
+    <div class="section__ttl blur">
+      <h2 class="section__ttl--en beside">SHOPPING</h2>
+      <span class="section__ttl--ja u-hidden--tablet">ショッピング</span>
+    </div>
+    <h3 class="text__ttl">Café Serenitéの味と癒しをおうちでも</h3>
+    <p class="shopping__desc">お気に入りのコーヒー豆やオリジナルスイーツ、限定グッズをオンラインでご購入いただけます。ギフトにも最適です。</p>
+    <ul class="shopping__list">
+      <li class="shopping__list-item">
+      <a class="shopping__list-link" href="#">
+        <img class="shopping__list-img" src="img/top-main/coffeebean.png" alt="コーヒー豆">
+        <h4 class="shopping__list-item-ttl">Speciality Coffee</h4>
+      </a>
+      </li>
+      <li class="shopping__list-item">
+      <a class="shopping__list-link" href="#">
+        <img class="shopping__list-img" src="img/top-main/sweetsbox.png" alt="スイーツギフトセット">
+        <h4 class="shopping__list-item-ttl">Sweets Gifts</h4>
+      </a>
+      </li>
+      <li class="shopping__list-item">
+      <a class="shopping__list-link" href="#">
+        <img class="shopping__list-img" src="img/top-main/originalgoods.png" alt="オリジナルグッズ">
+        <h4 class="shopping__list-item-ttl">Original Goods</h4>
+      </a>
+      </li>
+    </ul>
+    <a class="shopping__btn btn" href="#">商品一覧はこちら</a>
+  </section>
+  <section class="access scroll_up">
+    <div class="access__img-wrapper">
+      <img class="access__img" src="img/top-main/counter.jpg" alt="">
+    </div>
+    <div class="section__ttl blur">
+      <h2 class="section__ttl--en vertical vertical--top">ACCESS</h2>
+      <span class="section__ttl--ja u-hidden--tablet">アクセス</span>
+    </div>
+    <div class="access__info">
+      <div class="cafe__name">
+        <img class="cafe__logo" src="img/top-main/logo-white-2.png" alt="">
+        <div class="cafe__name-text">
+        <p class="cafe__name--en">Café Serenité</p>
+        <p class="cafe__name--ja">カフェ・セレニテ</p>
+      </div>
+      </div>
+    <dl class="cafe__info">
+      <dt class="cafe__info-ttl">住所</dt>
+      <dd class="cafe__info-desc">東京都渋谷区〇〇町1-2-3<br>
+        アクセス: 渋谷駅から徒歩5分</dd>
+      <dt class="cafe__info-ttl">営業時間</dt>
+      <dd class="cafe__info-desc">9：00〜19：00<br>
+        定休日：火曜日</dd>
+      <dt class="cafe__info-ttl">座席数</dt>
+      <dd class="cafe__info-desc">30席（テーブル席22席、カウンター席8席）<br>
+      <p class="cafe__info-desc-text">
+        広々とした店内でゆったりとお過ごしいただけます。<br>
+人気のカウンター席は、バリスタがコーヒーを淹れる様子を楽しみながらお食事ができる特等席です。
+      </p>
+      </dd>
+      <dt class="cafe__info-ttl">店内設備</dt>
+      <dd class="cafe__info-desc">WiFi完備、電源席あり</dd>
+      <dt class="cafe__info-ttl">TEL</dt>
+      <dd class="cafe__info-desc"><a href="tel:03-1234-5678" class="cafe__info-contact">03-1234-5678</a></dd>
+      <dt class="cafe__info-ttl">Email</dt>
+      <dd class="cafe__info-desc"><a href="mailto:info@cafeserenite.com" class="cafe__info-contact">info@cafeserenite.com</a></dd>
+    </dl>
+    <iframe class="access__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51862.59262366879!2d139.65150227717058!3d35.66685511243345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cb2eb3108d1%3A0xf11cd9b2395b6677!2zU2hpYnV5YSwgVMO0a3nDtCwgTmjhuq10IELhuqNu!5e0!3m2!1svi!2s!4v1736011578120!5m2!1svi!2s"></iframe>
+  </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__left">
+      <a class="logo-link" href="index.html">
+      <img class="footer__cafe-logo" src="img/top-main/logo-green.png" alt="Cafe Serenite">
+      </a>
+      <p class="footer__cafe-address">東京都渋谷区〇〇町1-2-3<br>アクセス: 渋谷駅から徒歩5分</p>
+    </div>
+    <div class="footer__right">
+      <div class="sns-icons sns-icons--footer">
+      <p class="section__ttl--en section__ttl--footer beside">SNS</p>
+      <a class="sns-icons-link" href="https://line.me/" target="_blank" aria-label="LINE">
+      <i class="fa-brands fa-brands--green fa-line fa-2x fa-fw"></i></a>
+      <a class="sns-icons-link" href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+      <i class="fa-brands fa-brands--green fa-instagram fa-2x fa-fw"></i>
+      </a>
+      </div>
+      <a class="btn" href="#">CONTACT</a>
+      <p class="copyright">&copy; 2024 Café Serenité</p>
+    </div>
+  </footer>
+  </main>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/jquery.bgswitcher.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+  jQuery(function($) {
+      $('.bg-slider').bgSwitcher({
+        images: [
+          'img/top-main/mv-apperance.png',
+          'img/top-main/mv-barista.png',
+          'img/top-main/mv-cafe.png',
+          'img/top-main/mv-seat.png'
+        ],
+        interval: 5000,
+        loop: true, 
+        shuffle: false, 
+        effect: "fade",
+        duration: 3000,
+        easing: "swing"
+      });
+  });
+</script>
+</body>
+</html>
