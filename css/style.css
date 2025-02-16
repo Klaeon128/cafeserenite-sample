@@ -499,7 +499,7 @@ img {
   }
 }
 
-main {
+main,footer {
   margin-right: 120px;
 }
 @media screen and (max-width: 960px) {
