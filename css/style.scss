@@ -543,7 +543,7 @@ $breakpoints: (
 }
 
 // main
-main{
+main,footer{
  margin-right: 120px;
 
  @include respond-to(lg) {
